@@ -1,24 +1,46 @@
-import logo from './logo.svg';
+import { useReactToPrint } from "react-to-print";
+import {Box, Button} from '@mui/material';
 import './App.css';
+import React, { useRef } from "react";
+import CV from './CV'
 
 function App() {
+
+  const componentRef = useRef(null);
+  const handlePrint = useReactToPrint({
+    content: () => componentRef.current || null,
+  });
+
+
+  const ComponentToPrint = React.forwardRef((props, ref) => {
+    return (
+      <Box ref={ref}>
+        <CV></CV>
+      </Box>
+    );
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <Box 
+        bgcolor="gray"
+        paddingY={"3rem"}
+        display={"flex"} 
+        flexDirection="column"
+        justifyContent={"center"}
+        alignItems="center"
+        gap={"1rem"}
+    >
+      <CV></CV>
+      <div style={{ display: "none" }}>
+            <ComponentToPrint ref={componentRef} />
+          </div>
+          <Button
+          variant="contained"
+          onClick={handlePrint}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          Print
+        </Button>
+    </Box>
   );
 }
 
