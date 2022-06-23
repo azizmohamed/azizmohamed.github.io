@@ -12,41 +12,30 @@ const Skills1 = () => {
       margin="2mm 5mm 5mm 1mm"
       titleLeft={"32mm"}
     >
-      <Box display={"flex"} flexDirection="row" flexWrap={"wrap"} gap="1mm">
-        <Chip label="c#"></Chip>
-        <Chip label=".NET Framework"></Chip>
-        <Chip label=".NET Core"></Chip>
-        <Chip label="ASP.NET"></Chip>
-        <Chip label="Kubernetes"></Chip>
-        <Chip label="React"></Chip>
-        <Chip label="Javascript"></Chip>
-        <Chip label="Typescript"></Chip>
-        <Chip label="Azure DevOps"></Chip>
-        <Chip label="CI/CD"></Chip>
-        <Chip label="Git"></Chip>
-        <Chip label="Github Actions"></Chip>
-        <Chip label="SOLID Principles"></Chip>
-        <Chip label="Design Patterns"></Chip>
-        <Chip label="Unit Testing"></Chip>
-        <Chip label="Docker"></Chip>
-        <Chip label="Visual Studio"></Chip>
-        <Chip label="Visual Studio Code"></Chip>
-        <Chip label="Mac OS"></Chip>
-        <Chip label="Windows OS"></Chip>
-        <Chip label="AZURE"></Chip>
-        <Chip label="AZURE App Services"></Chip>
-        <Chip label="AZURE Functions"></Chip>
-        <Chip label="AZURE SQL Service"></Chip>
-        <Chip label="AZURE Service Bus"></Chip>
-        <Chip label="AZURE AD"></Chip>
-        <Chip label="AZURE VMs"></Chip>
-        <Chip label="AZURE DNS"></Chip>
-        <Chip label="AZURE ARM"></Chip>
-        <Chip label="AWS"></Chip>
-        <Chip label="AWS EC2"></Chip>
-        <Chip label="AWS VPC"></Chip>
-        <Chip label="AWS CDK"></Chip>
-        <Chip label="AWS S3"></Chip>
+      <Box display={"flex"} flexDirection="row" flexWrap={"wrap"} gap="1mm" m="0 0 -5mm 0">
+        <Chip style={{flexGrow: "1"}}  label="c#"></Chip>
+        <Chip style={{flexGrow: "1"}} label=".NET Framework"></Chip>
+        <Chip style={{flexGrow: "1"}} label=".NET Core"></Chip>
+        <Chip style={{flexGrow: "1"}} label="ASP.NET"></Chip>
+        <Chip style={{flexGrow: "1"}} label="Kubernetes"></Chip>
+        <Chip style={{flexGrow: "1"}} label="React"></Chip>
+        <Chip style={{flexGrow: "1"}} label="Javascript"></Chip>
+        <Chip style={{flexGrow: "1"}} label="Typescript"></Chip>
+        <Chip style={{flexGrow: "1"}} label="Azure DevOps"></Chip>
+        <Chip style={{flexGrow: "1"}} label="CI/CD"></Chip>
+        <Chip style={{flexGrow: "1"}} label="Git"></Chip>
+        <Chip style={{flexGrow: "1"}} label="Github Actions"></Chip>
+        <Chip style={{flexGrow: "1"}} label="SOLID Principles"></Chip>
+        <Chip style={{flexGrow: "1"}} label="Design Patterns"></Chip>
+        <Chip style={{flexGrow: "1"}} label="Unit Testing"></Chip>
+        <Chip style={{flexGrow: "1"}} label="Docker"></Chip>
+        <Chip style={{flexGrow: "1"}} label="Visual Studio"></Chip>
+        <Chip style={{flexGrow: "1"}} label="Visual Studio Code"></Chip>
+        <Chip style={{flexGrow: "1"}} label="Mac OS"></Chip>
+        <Chip style={{flexGrow: "1"}} label="Windows OS"></Chip>
+        <Chip style={{flexGrow: "1"}} label="AZURE"></Chip>
+        <Chip style={{flexGrow: "1"}} label="AZURE App Services"></Chip>
+        <Chip style={{flexGrow: "1"}} label="AZURE Functions"></Chip>
       </Box>
     </LabelledBox>
   );

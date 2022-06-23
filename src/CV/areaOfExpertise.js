@@ -1,18 +1,19 @@
 import { Box, Typography } from "@mui/material";
 
-const AreaOfExpertise = ({ title, children }) => {
+const AreaOfExpertise = ({ title, children, width }) => {
   return (
     <Box
-      boxShadow={"0.5px 1px 4px #d3d3d3"}
-      width="86mm"
+      minWidth={width}
       display={"flex"}
       flexDirection="column"
-      alignItems={"start"}
-      border="solid 1px #d3d3d3"
+      alignItems={"center"}
       padding={"2mm"}
+      bgcolor="#048BC2"
+      borderRadius={"1mm"}
     >
-      <Typography  sx={{textDecoration: 'underline'}} fontWeight="bold">{title}</Typography>
-      {children}
+      <Typography fontWeight="bold" color={"white"}>
+        {title}
+      </Typography>
     </Box>
   );
 };

@@ -1,26 +1,25 @@
 import { Box } from "@mui/material";
 import Headline from "./headline";
-import Highlights from "./highlights";
 import Skills1 from "./skills1";
 import Skills2 from "./skills2";
-import Info from "./info";
-import Experience1 from "./Experience1";
-import Experience2 from "./Experience2";
+import Experience2 from "./experience2";
 import AreasOfExpertise from "./areasOfExpertise";
+import Certificates from "./Certificates";
+import Experience1 from "./experience1";
+import Experience3 from "./experience3";
+import Education from "./education";
 
 const CV = () => {
   return (
     <>
-      <Box width="297mm" height={"420mm"} bgcolor="white">
-        <Box
-          display={"flex"}
-          flexDirection="row"
-          justifyContent={"space-between"}
-          maxWidth="297mm"
-        >
-          <Headline></Headline>
-          <Info></Info>
-        </Box>
+      <Box
+        width="297mm"
+        height={"420mm"}
+        bgcolor="white"
+        padding={"0 3mm 3mm 3mm"}
+      >
+        <Headline></Headline>
+
         <AreasOfExpertise></AreasOfExpertise>
         <Box
           display={"flex"}
@@ -28,10 +27,18 @@ const CV = () => {
           justifyContent={"space-between"}
         >
           <Experience1></Experience1>
-          <Skills1></Skills1>
+          <Box display={"flex"} flexDirection="column">
+            <Certificates></Certificates>
+            <Skills1></Skills1>
+          </Box>
         </Box>
       </Box>
-      <Box width="297mm" height={"419mm"} bgcolor="white">
+      <Box
+        width="297mm"
+        height={"420mm"}
+        bgcolor="white"
+        padding={"8mm 3mm 3mm 3mm"}
+      >
         <Box
           display={"flex"}
           flexDirection="row"
@@ -40,6 +47,15 @@ const CV = () => {
           <Experience2></Experience2>
           <Skills2></Skills2>
         </Box>
+      </Box>
+      <Box
+        width="297mm"
+        height={"419mm"}
+        bgcolor="white"
+        padding={"8mm 3mm 3mm 3mm"}
+      >
+          <Experience3></Experience3>
+          <Education></Education>
       </Box>
     </>
   );

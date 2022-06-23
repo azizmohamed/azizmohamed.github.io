@@ -9,20 +9,22 @@ const ExperienceItem = ({
   children,
 }) => {
   return (
-    <Box marginBottom={"2mm"}>
+    <Box marginBottom={"10mm"}>
       <Box
         display={"flex"}
         flexDirection="row"
-        gap={"2mm"}
         alignItems="center"
         width={"100%"}
         borderBottom={"solid 1px black"}
       >
-        <Typography variant="h6" >{position}</Typography>
+        <Typography fontSize={"25px"} fontWeight="bold" mr="5mm">
+          {position}
+        </Typography>
         <Link href={companyUrl}>
-          <Typography variant="h7">{company}</Typography>
-        </Link>{" "}
-        - <Typography variant="h7">{periodDesc}</Typography>
+          <Typography fontSize={"25px"}>{company}</Typography>
+        </Link>
+        <Typography m="0 2mm 0 2mm">-</Typography>
+        <Typography fontSize={"25px"}>{periodDesc}</Typography>
       </Box>
 
       <Box>{children}</Box>

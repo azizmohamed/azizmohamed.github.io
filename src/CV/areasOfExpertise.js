@@ -6,7 +6,7 @@ const AreasOfExpertise = () => {
   return (
     <LabelledBox
       label={"Areas Of Expertise"}
-      margin="2mm 5mm 5mm 5mm"
+      margin="2mm 5mm 2mm 5mm"
       titleLeft={"240mm"}
       titleWidth="40mm"
     >
@@ -14,29 +14,29 @@ const AreasOfExpertise = () => {
         display={"flex"}
         flexDirection="row"
         flexWrap={"wrap"}
-        justifyContent="center"
+        justifyContent="start"
         gap="3mm"
       >
-        <AreaOfExpertise title="App Development">
+        <AreaOfExpertise width="50mm" title="App Development">
           <Typography fontSize={"14px"}>
             Developed end to end solutions for about 15 years using dotnet and
             other technologies when needed.
           </Typography>
         </AreaOfExpertise>
-        <AreaOfExpertise title="Cloud Infrastructure">
+        <AreaOfExpertise width="60mm" title="Cloud Infrastructure">
           <Typography fontSize={"14px"}>
             Worked in both AWS and Azure using IaC tools in both providers like
             ARM in AZURE and CDK and CloudFormation in AWS.
           </Typography>
         </AreaOfExpertise>
-        <AreaOfExpertise title="Agile">
+        <AreaOfExpertise width="40mm" title="Agile">
           <Typography fontSize={"14px"}>
             I have been using Agile almost all of my career and love to help
             customers understand and apply Agile the way match their teams and
             culture.
           </Typography>
         </AreaOfExpertise>
-        <AreaOfExpertise title="Consultation">
+        <AreaOfExpertise width="40mm" title="Consultation">
           <Typography fontSize={"14px"}>
             With good communication and leadership skills I have been able to
             help customers in Australia for about 5 years in my current company.
@@ -44,7 +44,7 @@ const AreasOfExpertise = () => {
             different scales form medium to large.
           </Typography>
         </AreaOfExpertise>
-        <AreaOfExpertise title="Managed Services">
+        <AreaOfExpertise width="60mm" title="Managed Services">
           <Typography fontSize={"14px"}>
             In addition to Consultation experience, Managed Services come with a
             different culture. Sustainability of applications and response to
@@ -52,14 +52,14 @@ const AreasOfExpertise = () => {
             services project.
           </Typography>
         </AreaOfExpertise>
-        <AreaOfExpertise title="App Modernization / Migration">
+        <AreaOfExpertise width="77mm" title="App Modernization / Migration">
           <Typography fontSize={"14px"}>
             Migrated applications from On-Premise to PAAS, containerized some
             applications and moved other applications to serverless. Also,
             participated in helping customer understand and adapt DDD.
           </Typography>
         </AreaOfExpertise>
-        <AreaOfExpertise title="Architecture / Microservices">
+        <AreaOfExpertise width="75mm" title="Architecture / Microservices">
           <Typography fontSize={"14px"}>
             I am certified as Solution Architect Associate in AWS and worked in
             adding the architecture of various applications. Used both
@@ -67,7 +67,7 @@ const AreasOfExpertise = () => {
             pattern when needed.
           </Typography>
         </AreaOfExpertise>
-        <AreaOfExpertise title="Devops">
+        <AreaOfExpertise width="55mm" title="Devops - CI/CD">
           <Typography fontSize={"14px"}>
             Devops comes naturally when you apply proper Agile. I have
             experience in using Azure Devops, Octopus Deploy, Team City and
@@ -75,7 +75,7 @@ const AreasOfExpertise = () => {
             applying it with any set of tools.
           </Typography>
         </AreaOfExpertise>
-        <AreaOfExpertise title="Leadership">
+        <AreaOfExpertise width="50mm" title="Leadership">
           <Typography fontSize={"14px"}>
             I have worked across different teams and different positions with
             various team sizes and gained a good level of leadership skills
