@@ -47,15 +47,7 @@ const CV = () => {
           <Experience2></Experience2>
           <Skills2></Skills2>
         </Box>
-      </Box>
-      <Box
-        width="297mm"
-        height={"419mm"}
-        bgcolor="white"
-        padding={"8mm 3mm 3mm 3mm"}
-      >
-          <Experience3></Experience3>
-          <Education></Education>
+        <Education></Education>
       </Box>
     </>
   );

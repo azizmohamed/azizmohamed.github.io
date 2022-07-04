@@ -1,16 +1,17 @@
 import { Box } from "@mui/system";
 import { Typography, List, ListItem } from "@mui/material";
-const Project = ({ title, description, accomplishments }) => {
+const Project = ({ title, description, accomplishments, marginBottom }) => {
   return (
-    <Box marginBottom={"5mm"}>
-      <Box display={"flex"} flexDirection="row" gap="2mm" marginY={"1mm"}>
+    <Box marginBottom={marginBottom || "1mm"}>
+      {title && <Box display={"flex"} flexDirection="row" gap="2mm" marginY={"1mm"}>
         <Typography fontSize={"20px"} fontWeight="bold">
           Project:
         </Typography>
         <Typography fontSize={"20px"} fontWeight="bold">
           {title}
         </Typography>
-      </Box>
+      </Box>}
+      
       {description}
       {accomplishments?.length ? (
         <Typography

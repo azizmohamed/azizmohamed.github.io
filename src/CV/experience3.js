@@ -20,7 +20,7 @@ const Experience3 = () => {
         companyUrl={"https://www.itworx.com/"}
         periodDesc="Apr 2011 - Mar 2015"
       >
-        <Project
+        {/* <Project
           title="Syngenta DEX (Digital Excellence) - Field Selection"
           description={
             <Typography
@@ -99,7 +99,7 @@ const Experience3 = () => {
               screening.
             </Typography>
           }
-        ></Project>
+        ></Project> */}
       </ExperienceItem>
       <ExperienceItem
         position={"Senior Software Engineer"}
@@ -107,7 +107,7 @@ const Experience3 = () => {
         companyUrl={"https://ebseg.com/"}
         periodDesc="Apr 2007 - Mar 2011"
       >
-        <Project
+        {/* <Project
           title="AlRajhi eBank iPhone and eBank iPad Applications"
           description={
             <Typography
@@ -140,7 +140,7 @@ const Experience3 = () => {
               trading transactions via SMS and Mobile Applications.
             </Typography>
           }
-        ></Project>
+        ></Project> */}
       </ExperienceItem>
     </LabelledBox>
   );

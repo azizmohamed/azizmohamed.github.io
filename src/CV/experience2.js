@@ -11,6 +11,7 @@ const Experience2 = () => {
       titleWidth="53mm"
       titleLeft={"173mm"}
       margin="2mm 1mm 2mm 5mm"
+      height={"368mm"}
     >
       <ExperienceItem
         position={"Senior/Lead Consultant"}
@@ -97,26 +98,9 @@ const Experience2 = () => {
         periodDesc="Apr 2016 - Jun 2017"
       >
         <Project
-          title="Inspire"
-          description={
-            <Typography
-              lineHeight={"6mm"}
-              fontSize="20px"
-              textAlign={"justify"}
-              m="0 1mm 0 1mm"
-            >
-              Inspire is a full tourism application including hotel and flight
-              reservation, car rental and activities management. Product is in
-              very initial phase choosing technologies, architecture, design of
-              different components, POCs for different concepts and tools and
-              initial implementation of product.
-            </Typography>
-          }
           accomplishments={[
             "Participated in architecture, design and implementation of different solutions.",
-            "Compared and selected different development and dev-ops tools.",
             "Consulted and guided development team members.",
-            "Initiated the security framework and implemented the authentication module using AWS Cognito",
           ]}
         ></Project>
       </ExperienceItem>
@@ -127,7 +111,25 @@ const Experience2 = () => {
         periodDesc="Apr 2015 - Apr 2016"
       >
         <Project
-          title="Buzz Digger"
+          accomplishments={[
+            "Participated in restructure and new look and feel of different solutions and enhanced its architecture, performance and development process.",
+          ]}
+        ></Project>
+      </ExperienceItem>
+      <ExperienceItem
+        position={"Senior/Lead Software Engineer"}
+        company={"ITWorx"}
+        companyUrl={"https://www.itworx.com/"}
+        periodDesc="Apr 2011 - Mar 2015"
+      >
+        <Project
+          title="Syngenta"
+          accomplishments={[
+            "Supported Syngenta for 4 years included development, design and support for various products.",
+          ]}
+        ></Project>
+        {/* <Project
+          title="Syngenta DEX (Digital Excellence) - Envision"
           description={
             <Typography
               lineHeight={"6mm"}
@@ -135,16 +137,73 @@ const Experience2 = () => {
               textAlign={"justify"}
               m="0 1mm 0 1mm"
             >
-              <Link href="http://buzzdiggr.com/">Buzz Digger</Link> is a
-              sentiment analysis product that employs machine learning and NLP
-              to analyze twitter feeds related to queries defined by user. It
-              offers different types of reports and charts to users to display
-              sentiment analyses results. I have worked in the implementation
-              and architecture of the application.
+              POC for applying weather and environmental data and history of
+              crop yield with maps to serve crop production users to identify
+              best conditions for breeding.
             </Typography>
           }
+        ></Project>
+        <Project
+          title="Syngenta Monitoring Service"
+          description={
+            <Typography
+              lineHeight={"6mm"}
+              fontSize="20px"
+              textAlign={"justify"}
+              m="0 1mm 0 1mm"
+            >
+              Monitoring service is a system that automates the monitoring of
+              different components of system. Monitoring service can take
+              automated recovery action or send notification to responsible
+              person as configured.
+            </Typography>
+          }
+        ></Project>
+        <Project
+          title="Syngenta Phoenix Integration Project"
+          description={
+            <Typography
+              lineHeight={"6mm"}
+              fontSize="20px"
+              textAlign={"justify"}
+              m="0 1mm 0 1mm"
+            >
+              Project includes provision of single point of storage for
+              biomaterial data, migration of existing data to new table
+              structure, and provision of any additional functionality needed in
+              the inventory to support the use of biomaterial data.
+            </Typography>
+          }
+        ></Project>
+        <Project
+          title="Syngenta Fix Compound Order (FCO)"
+          description={
+            <Typography
+              lineHeight={"6mm"}
+              fontSize="20px"
+              textAlign={"justify"}
+              m="0 1mm 0 1mm"
+            >
+              Project Overview: Streamline, simplify, and standardize the
+              logistics processes to be independent of the store and site and to
+              provide a seamless and traceable process for the ordering of
+              compounds for Discovery, Early Lead Finding, and Optimization
+              screening.
+            </Typography>
+          }
+        ></Project> */}
+      </ExperienceItem>
+      <ExperienceItem
+        position={"Senior Software Engineer"}
+        company={"eBSEG"}
+        companyUrl={"https://ebseg.com/"}
+        periodDesc="Apr 2007 - Mar 2011"
+      >
+        <Project
+        title="AlRajhi eBank"
           accomplishments={[
-            "Participated in restructure and new look and feel of BuzzDigger and enhanced its architecture, performance and development process.",
+            "Implemented SMS, Web and mobile system for banking and brokerage products of AlRajhi eBank.",
+            "Participated in different delivery, analysis and onboarding activities on-site"
           ]}
         ></Project>
       </ExperienceItem>

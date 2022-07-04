@@ -7,6 +7,7 @@ const Education = () => (
     margin="2mm 5mm 2mm 5mm"
     titleLeft={"255mm"}
     titleWidth="23mm"
+    height={"25mm"}
   >
     <Typography fontSize={"20px"} fontWeight="bold">Bachelor of Engineering | (2001 – 2006)</Typography>
     <Typography fontSize={"20px"}> Cairo University, Egypt</Typography>

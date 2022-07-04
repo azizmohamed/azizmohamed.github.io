@@ -9,7 +9,7 @@ const ExperienceItem = ({
   children,
 }) => {
   return (
-    <Box marginBottom={"10mm"}>
+    <Box marginBottom={"5mm"}>
       <Box
         display={"flex"}
         flexDirection="row"

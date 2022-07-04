@@ -11,6 +11,7 @@ const Skills2 = () => {
     width={"50mm"}
     margin="2mm 5mm 5mm 1mm"
     titleLeft={"32mm"}
+    height={"368mm"}
     >
       <Box display={"flex"} flexDirection="row" flexWrap={"wrap"} gap="1mm">
         <Chip style={{flexGrow: "1"}} label="AZURE SQL Service"></Chip>
