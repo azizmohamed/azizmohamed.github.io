@@ -4,10 +4,10 @@ const Project = ({ title, description, accomplishments, marginBottom }) => {
   return (
     <Box marginBottom={marginBottom || "1mm"}>
       {title && <Box display={"flex"} flexDirection="row" gap="2mm" marginY={"1mm"}>
-        <Typography fontSize={"20px"} fontWeight="bold">
+        <Typography fontSize={"15px"} fontWeight="bold">
           Project:
         </Typography>
-        <Typography fontSize={"20px"} fontWeight="bold">
+        <Typography fontSize={"15px"} fontWeight="bold" style={{textDecoration:"underline"}}>
           {title}
         </Typography>
       </Box>}
@@ -15,9 +15,9 @@ const Project = ({ title, description, accomplishments, marginBottom }) => {
       {description}
       {accomplishments?.length ? (
         <Typography
-          fontSize={"17px"}
+          fontSize={"15px"}
           fontWeight="bold"
-          margin={"2mm 1mm 1mm 1mm"}
+          margin={"1mm 0.5mm 0.5mm 0.5mm"}
         >
           Accomplishments:
         </Typography>
@@ -28,7 +28,7 @@ const Project = ({ title, description, accomplishments, marginBottom }) => {
         <List disablePadding>
           {accomplishments.map((acc, index) => {
             return (
-              <ListItem disablePadding key={index} style={{ fontSize: "20px" }}>
+              <ListItem disablePadding key={index} style={{ fontSize: "15px" }}>
                 - {acc}
               </ListItem>
             );

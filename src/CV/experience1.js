@@ -8,40 +8,57 @@ const Experience1 = () => {
     <LabelledBox
       label={"Professional Experience"}
       width="245mm"
-      titleWidth="53mm"
-      titleLeft={"173mm"}
+      titleWidth="52mm"
+      titleLeft={"170mm"}
       height="288mm"
       margin="2mm 1mm 1mm 5mm"
     >
       <Box mb="-10">
         <ExperienceItem
+          position={"Senior Engineer"}
+          company={"CMC Markets"}
+          companyUrl={"https://www.cmcmarkets.com/"}
+          periodDesc="Jan 2023 - Present"
+        >
+          <Project
+            description={
+              <Typography
+                lineHeight={"5mm"}
+                fontSize="15px"
+                textAlign={"justify"}
+                m="1mm"
+              >
+                Played a key role in the modernization and migration of the market pricing data module to microservices architecture and event-driven design. Actively utilized AWS services, .NET framework, and IaaS solutions, with a focus on effective management through CDK. Contributed to the corporate migration strategy, enhancing market pricing data processing efficiency and reducing latency. Resulted in improved overall system performance and scalability, showcasing expertise in event-driven architecture.
+                </Typography>
+            }
+            accomplishments={[
+              "Built the infrastructure of multiple services using CDK and Terraform.",
+              "Built the development environment through the implementation of GitHub Actions and various AWS services.",
+              "Implemented market pricing services using .NET Core, various AWS services, and ASP.NET Core."
+            ]}
+          ></Project>
+        </ExperienceItem>
+        <ExperienceItem
           position={"Lead Consultant"}
           company={"Telstra Purple"}
           companyUrl={"https://purple.telstra.com/"}
-          periodDesc="Aug 2021 - Present"
+          periodDesc="Aug 2021 - Dec 2022"
         >
           <Project
             title={"CBA-Client Services App"}
             description={
               <Typography
-                lineHeight={"6mm"}
-                fontSize="20px"
+                lineHeight={"5mm"}
+                fontSize="15px"
                 textAlign={"justify"}
-                m="0 1mm 0 1mm"
+                m="1mm"
               >
-                A new system to replace existing booking system used for events
-                and meeting rooms management across all CBA buildings. It's used
-                for catering, kitchen, meeting equipments and external visitors
-                management. The main motive behind this project is to have a
-                good UX in addition to creative ways to handle complex business
-                cases like recurrence and rooms availability.
-              </Typography>
+                As a key contributor, I played a vital role in developing an innovative booking system for events and meeting rooms, transforming scheduling across CBA buildings. Integrated creative solutions for complex scenarios, ensuring real-time room availability. The system, which includes React for a dynamic front-end, enhances operational efficiency and elevates service delivery standards, fostering a culture of innovation and excellence.
+                </Typography>
             }
             accomplishments={[
-              "Participated in deciding the technology stack and architecture.",
-              "Implemented some core reusable components to be used across the web app.",
-              "Implemented requester module and main printing functionality.",
-              "Participated in deployment, infrastructure management and production support.",
+              "Built infrastructure and continuous integration/continuous delivery (CI/CD) pipelines using Terraform.",
+              "Developed and implemented front-end modules using React and back-end modules using ASP.NET Core."
             ]}
           ></Project>
         </ExperienceItem>
@@ -55,27 +72,24 @@ const Experience1 = () => {
             title="Automation Platform"
             description={
               <Typography
-                lineHeight={"6mm"}
-                fontSize="20px"
-                m="0 1mm 0 1mm"
+                lineHeight={"5mm"}
+                fontSize="15px"
+                m="1mm"
                 textAlign={"justify"}
               >
-                The core component of Automation Platform is{" "}
-                <Link href="https://www.ansible.com/products/awx-project/faq">
+
+                As a central figure in the Automation Platform, anchored by <Link href="https://www.ansible.com/products/awx-project/faq">
                   AWX
-                </Link>
-                . The target of the project is to promote AWX among in the
-                organization. This target required implementing some
-                integrations around the platform and defining a set of
-                procedures for using the platform.
+                </Link>, I championed its widespread adoption across the organization. Leading the charge, I orchestrated the integration of key components, emphasizing Kubernetes as the container orchestrator. This initiative streamlined procedures, fostering a culture of automation, innovation, and heightened productivity organization-wide.
+
               </Typography>
             }
             accomplishments={[
-              "Standardized the integration procedures of automation platform.",
-              "Led the off-shore dev team in India to implement 2 integration end points for Automation Platform.",
-              "Implemented and documented the automation platform onboarding framework and operational framework.",
-              "Introduced automation platform to other services departments",
-              "Guided two internal departments of the company in adopting the automation platform.",
+              "Standardized the integration procedures of the automation platform.",
+              "Led the offshore development team in India to implement 2 integration endpoints for the Automation Platform.",
+              "Implemented and documented the automation platform's onboarding framework and operational framework.",
+              "Introduced the automation platform to other service departments.",
+              "Guided two internal departments of the company in adopting the automation platform."
             ]}
           ></Project>
         </ExperienceItem>
@@ -89,23 +103,16 @@ const Experience1 = () => {
             title="ANU - Tuckwell Scholarship & Programs and Courses"
             description={
               <Typography
-                lineHeight={"6mm"}
-                fontSize="20px"
-                m="0 1mm 0 1mm"
+                lineHeight={"5mm"}
+                fontSize="15px"
+                m="1mm"
                 textAlign={"justify"}
               >
-                <Link href="https://tuckwell.anu.edu.au/">Tuckwell</Link> is a
-                scholarship system for high school student applying for{" "}
-                <Link href="https://www.anu.edu.au/">
+                As an integral part of the Managed Services account, our team at Readify undertook the development and ongoing maintenance of <Link href="https://tuckwell.anu.edu.au/">Tuckwell</Link>, a prestigious scholarship system catering to high school students applying for the esteemed <Link href="https://www.anu.edu.au/">
                   Australian National University
-                </Link>
-                . And{" "}
-                <Link href="https://programsandcourses.anu.edu.au/">
+                </Link>. Additionally, we were entrusted with the creation and management of <Link href="https://programsandcourses.anu.edu.au/">
                   Programs and Courses
-                </Link>{" "}
-                is the programs and courses catalog website. They were created
-                by Readify and was maintained by my team in Managed Services
-                account.
+                </Link>, a comprehensive and dynamic catalog website that serves as a cornerstone resource for students seeking detailed information on various programs and courses offered. Our commitment to delivering top-notch solutions and ensuring the seamless operation of these critical platforms has been pivotal in empowering students and fostering academic excellence within the Australian National University community.
               </Typography>
             }
             accomplishments={[

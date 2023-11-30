@@ -73,7 +73,7 @@ const Headline = () => {
         m="0 -3mm 0 -3mm"
       >
         <Typography fontWeight={"bold"} fontSize="45px">
-          Abdelaziz Mohamed
+          Aziz Mohamed
         </Typography>
         <Typography fontWeight={"bold"} fontSize="25px">
           Tech Lead / Consultant / Solution Architect
@@ -82,25 +82,18 @@ const Headline = () => {
           <Email></Email>
           <LinkedIn></LinkedIn>
           <ContactPhone></ContactPhone>
-          <Website></Website>
-          <GitHub></GitHub>
         </Box>
       </Box>
       <Typography
-        fontSize={"18px"}
+        fontSize={"16px"}
         textAlign="justify"
-        lineHeight={"6mm"}
+        lineHeight={"5mm"}
         m="3mm 5mm 5mm 5mm"
         padding={"2mm 5mm 2mm 5mm"}
         border={"solid 1px #d3d3d3"}
       >
-        Fifteen years of experience working in software engineering, five years
-        as a consultant in Australia. Successfully delivered many solutions
-        employing my experience in App Development using various technologies
-        and tools, Cloud Infrastructure using both AWS and Azure and Devops
-        technologies. I am passionate about AWS and occasionally share my
-        knowledge in AWS by talks and blog post in my personal blog.
-      </Typography>
+        Senior Cloud Engineer and AWS Architect with 16+ years of expertise in designing and implementing scalable cloud solutions. Proficient in .NET and front-end development, boasting a robust full-stack background. Proven track record in optimizing performance and fortifying security through strategic use of AWS services. Recognized team collaborator with a talent for translating complex technical concepts. Specialized in crafting event-driven architectures for real-time scalability and responsiveness. Well-versed in microservices design to enhance system flexibility. A seasoned professional at the forefront of general cloud solutions, with a key focus on AWS.
+        </Typography>
     </Box>
   );
 };

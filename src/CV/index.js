@@ -8,6 +8,7 @@ import Certificates from "./Certificates";
 import Experience1 from "./experience1";
 import Experience3 from "./experience3";
 import Education from "./education";
+import Languages from "./languages";
 
 const CV = () => {
   return (
@@ -45,7 +46,11 @@ const CV = () => {
           justifyContent={"space-between"}
         >
           <Experience2></Experience2>
+          <Box display={"flex"} flexDirection="column">
           <Skills2></Skills2>
+          <Languages></Languages>
+          </Box>
+         
         </Box>
         <Education></Education>
       </Box>

@@ -44,12 +44,8 @@ const AreasOfExpertise = () => {
             different scales form medium to large.
           </Typography>
         </AreaOfExpertise>
-        <AreaOfExpertise width="60mm" title="Managed Services">
+        <AreaOfExpertise width="60mm" title="Event-Driven Architecture">
           <Typography fontSize={"14px"}>
-            In addition to Consultation experience, Managed Services come with a
-            different culture. Sustainability of applications and response to
-            production problems are two main factors in successful managed
-            services project.
           </Typography>
         </AreaOfExpertise>
         <AreaOfExpertise width="77mm" title="App Modernization / Migration">
@@ -59,7 +55,7 @@ const AreasOfExpertise = () => {
             participated in helping customer understand and adapt DDD.
           </Typography>
         </AreaOfExpertise>
-        <AreaOfExpertise width="75mm" title="Architecture / Microservices">
+        <AreaOfExpertise width="75mm" title="Microservices Architecture">
           <Typography fontSize={"14px"}>
             I am certified as Solution Architect Associate in AWS and worked in
             adding the architecture of various applications. Used both

@@ -11,7 +11,7 @@ const Experience2 = () => {
       titleWidth="53mm"
       titleLeft={"173mm"}
       margin="2mm 1mm 2mm 5mm"
-      height={"368mm"}
+      height={"375mm"}
     >
       <ExperienceItem
         position={"Senior/Lead Consultant"}
@@ -23,19 +23,14 @@ const Experience2 = () => {
           title="Southern Cross Cable Network"
           description={
             <Typography
-              lineHeight={"5.5mm"}
-              fontSize="18px"
-              m="0 1mm 0 1mm"
+              lineHeight={"5mm"}
+              fontSize="15px"
+              m="1mm"
               textAlign={"justify"}
             >
-              <Link href="https://www.southerncrosscables.com/">
+              Within the operational purview of Telstra Purple, our dedicated team spearheaded the development and ongoing maintenance of a comprehensive Content Management System (CMS) and an efficient Job Administration System for the renowned <Link href="https://www.southerncrosscables.com/">
                 Southern Cross Cable Network
-              </Link>{" "}
-              is a network provider that needed a CMS and a job admin system.
-              Both systems in addition to the public website were maintained by
-              Telstra Purple. This system needed to be migrated from on-premise
-              environment to Azure in addition to some new feature in document
-              management.
+              </Link>, a prominent network service provider. Alongside the critical management of the public website, our mandate extended to orchestrating the seamless migration of these pivotal systems from an on-premise environment to the dynamic and scalable Azure platform. In addition to ensuring a smooth transition, our team implemented a suite of innovative features, with a particular focus on enhancing document management capabilities, thereby reinforcing Southern Cross Cable Network's position as a leading industry player committed to delivering seamless, cutting-edge solutions for its clientele.
             </Typography>
           }
           accomplishments={[
@@ -50,14 +45,12 @@ const Experience2 = () => {
           title="[Managed Services] Hannover, Ministry of Health and Cancer Institute"
           description={
             <Typography
-              lineHeight={"6mm"}
-              fontSize="20px"
+              lineHeight={"5mm"}
+              fontSize="15px"
               textAlign={"justify"}
               m="0 1mm 0 1mm"
             >
-              App Dev - Managed Services clients of Telstra Purple usually made
-              contract with us to maintain their systems as long as implement
-              needed features during time of MC contract.
+              As an App Dev specialist within the Managed Services division of Telstra Purple, my primary responsibility involved cultivating long-term partnerships with our esteemed clientele. Guided by our contractual agreements, we not only provided comprehensive system maintenance but also seamlessly implemented essential features, thereby reinforcing our commitment to delivering tailored solutions throughout the duration of our managed service contracts.
             </Typography>
           }
           accomplishments={[
@@ -71,17 +64,12 @@ const Experience2 = () => {
           title="ING Mobile App - Superannuation"
           description={
             <Typography
-              lineHeight={"6mm"}
-              fontSize="20px"
+              lineHeight={"5mm"}
+              fontSize="15px"
               textAlign={"justify"}
               m="0 1mm 0 1mm"
             >
-              A new module to be added to ING Bank mobile application for
-              Superannuation applications. The purpose of this project to
-              implement the new module as a web page using same component of
-              existing banking web app and hosting it in the native application.
-              Customers must get same UX in new module as in existing native app
-              on both Android and IOs.
+              I seamlessly introduced a Superannuation application module into the ING Bank mobile app, leveraging existing web components to ensure a consistent user experience across both Android and iOS platforms, reinforcing the bank's commitment to customer-centric digital solutions.
             </Typography>
           }
           accomplishments={[
@@ -98,6 +86,13 @@ const Experience2 = () => {
         periodDesc="Apr 2016 - Jun 2017"
       >
         <Project
+        title={"Envision"}
+        description={<Typography
+          lineHeight={"5mm"}
+          fontSize="15px"
+          textAlign={"justify"}
+          m="0 1mm 0 1mm"
+        >Leveraging AWS infrastructure and the .NET framework, "Envision" was meticulously designed as a comprehensive hotel booking system tailored for corporate internal employees. The system's streamlined and efficient booking processes were aimed at enhancing the overall experience for internal users, ensuring seamless operations and data security throughout the booking process.</Typography>}
           accomplishments={[
             "Participated in architecture, design and implementation of different solutions.",
             "Consulted and guided development team members.",
@@ -111,6 +106,15 @@ const Experience2 = () => {
         periodDesc="Apr 2015 - Apr 2016"
       >
         <Project
+        title={"BuzzDigger"}
+        description={<Typography
+          lineHeight={"5mm"}
+          fontSize="15px"
+          textAlign={"justify"}
+          m="0 1mm 0 1mm"
+        >
+          Employed advanced machine learning techniques and cloud technologies to develop a powerful sentiment analysis system catering to the needs of major corporations in the Middle East, providing crucial market insights and trend analysis for informed decision-making processes.
+        </Typography>}
           accomplishments={[
             "Participated in restructure and new look and feel of different solutions and enhanced its architecture, performance and development process.",
           ]}
@@ -122,8 +126,17 @@ const Experience2 = () => {
         companyUrl={"https://www.itworx.com/"}
         periodDesc="Apr 2011 - Mar 2015"
       >
+        
         <Project
           title="Syngenta"
+          description={<Typography
+            lineHeight={"5mm"}
+            fontSize="15px"
+            textAlign={"justify"}
+            m="0 1mm 0 1mm"
+          >
+            Utilized Microsoft technologies, including .NET and MVC, to provide comprehensive software support for Syngenta, ensuring the seamless operation and optimized performance of critical software systems.
+            </Typography>}
           accomplishments={[
             "Supported Syngenta for 4 years included development, design and support for various products.",
           ]}
