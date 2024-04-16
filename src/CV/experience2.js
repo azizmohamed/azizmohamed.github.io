@@ -24,7 +24,7 @@ const Experience2 = () => {
           description={
             <Typography
               lineHeight={"5mm"}
-              fontSize="15px"
+              fontSize="14px"
               m="1mm"
               textAlign={"justify"}
             >
@@ -46,7 +46,7 @@ const Experience2 = () => {
           description={
             <Typography
               lineHeight={"5mm"}
-              fontSize="15px"
+              fontSize="14px"
               textAlign={"justify"}
               m="0 1mm 0 1mm"
             >
@@ -65,7 +65,7 @@ const Experience2 = () => {
           description={
             <Typography
               lineHeight={"5mm"}
-              fontSize="15px"
+              fontSize="14px"
               textAlign={"justify"}
               m="0 1mm 0 1mm"
             >
@@ -89,7 +89,7 @@ const Experience2 = () => {
         title={"Envision"}
         description={<Typography
           lineHeight={"5mm"}
-          fontSize="15px"
+          fontSize="14px"
           textAlign={"justify"}
           m="0 1mm 0 1mm"
         >Leveraging AWS infrastructure and the .NET framework, "Envision" was meticulously designed as a comprehensive hotel booking system tailored for corporate internal employees. The system's streamlined and efficient booking processes were aimed at enhancing the overall experience for internal users, ensuring seamless operations and data security throughout the booking process.</Typography>}
@@ -109,7 +109,7 @@ const Experience2 = () => {
         title={"BuzzDigger"}
         description={<Typography
           lineHeight={"5mm"}
-          fontSize="15px"
+          fontSize="14px"
           textAlign={"justify"}
           m="0 1mm 0 1mm"
         >
@@ -131,7 +131,7 @@ const Experience2 = () => {
           title="Syngenta"
           description={<Typography
             lineHeight={"5mm"}
-            fontSize="15px"
+            fontSize="14px"
             textAlign={"justify"}
             m="0 1mm 0 1mm"
           >

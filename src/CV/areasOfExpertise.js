@@ -6,7 +6,7 @@ const AreasOfExpertise = () => {
   return (
     <LabelledBox
       label={"Areas Of Expertise"}
-      margin="2mm 5mm 2mm 5mm"
+      margin="1mm 2mm 1mm 2mm"
       titleLeft={"240mm"}
       titleWidth="40mm"
     >
@@ -15,15 +15,15 @@ const AreasOfExpertise = () => {
         flexDirection="row"
         flexWrap={"wrap"}
         justifyContent="start"
-        gap="3mm"
+        gap="2mm"
       >
-        <AreaOfExpertise width="50mm" title="App Development">
+        <AreaOfExpertise width="55mm" title="App Development">
           <Typography fontSize={"14px"}>
             Developed end to end solutions for about 15 years using dotnet and
             other technologies when needed.
           </Typography>
         </AreaOfExpertise>
-        <AreaOfExpertise width="60mm" title="Cloud Infrastructure">
+        <AreaOfExpertise width="65mm" title="Cloud Infrastructure">
           <Typography fontSize={"14px"}>
             Worked in both AWS and Azure using IaC tools in both providers like
             ARM in AZURE and CDK and CloudFormation in AWS.
@@ -44,18 +44,18 @@ const AreasOfExpertise = () => {
             different scales form medium to large.
           </Typography>
         </AreaOfExpertise>
-        <AreaOfExpertise width="60mm" title="Event-Driven Architecture">
+        <AreaOfExpertise width="70mm" title="Event-Driven Architecture">
           <Typography fontSize={"14px"}>
           </Typography>
         </AreaOfExpertise>
-        <AreaOfExpertise width="77mm" title="App Modernization / Migration">
+        <AreaOfExpertise width="79mm" title="App Modernization / Migration">
           <Typography fontSize={"14px"}>
             Migrated applications from On-Premise to PAAS, containerized some
             applications and moved other applications to serverless. Also,
             participated in helping customer understand and adapt DDD.
           </Typography>
         </AreaOfExpertise>
-        <AreaOfExpertise width="75mm" title="Microservices Architecture">
+        <AreaOfExpertise width="80mm" title="Microservices Architecture">
           <Typography fontSize={"14px"}>
             I am certified as Solution Architect Associate in AWS and worked in
             adding the architecture of various applications. Used both
@@ -63,7 +63,7 @@ const AreasOfExpertise = () => {
             pattern when needed.
           </Typography>
         </AreaOfExpertise>
-        <AreaOfExpertise width="55mm" title="Devops - CI/CD">
+        <AreaOfExpertise width="60mm" title="Devops - CI/CD">
           <Typography fontSize={"14px"}>
             Devops comes naturally when you apply proper Agile. I have
             experience in using Azure Devops, Octopus Deploy, Team City and
@@ -71,7 +71,7 @@ const AreasOfExpertise = () => {
             applying it with any set of tools.
           </Typography>
         </AreaOfExpertise>
-        <AreaOfExpertise width="50mm" title="Leadership">
+        <AreaOfExpertise width="55mm" title="Leadership">
           <Typography fontSize={"14px"}>
             I have worked across different teams and different positions with
             various team sizes and gained a good level of leadership skills

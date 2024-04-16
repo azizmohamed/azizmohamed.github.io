@@ -15,7 +15,7 @@ const Project = ({ title, description, accomplishments, marginBottom }) => {
       {description}
       {accomplishments?.length ? (
         <Typography
-          fontSize={"15px"}
+          fontSize={"14px"}
           fontWeight="bold"
           margin={"1mm 0.5mm 0.5mm 0.5mm"}
         >
@@ -28,7 +28,7 @@ const Project = ({ title, description, accomplishments, marginBottom }) => {
         <List disablePadding>
           {accomplishments.map((acc, index) => {
             return (
-              <ListItem disablePadding key={index} style={{ fontSize: "15px" }}>
+              <ListItem disablePadding key={index} style={{ fontSize: "14px" }}>
                 - {acc}
               </ListItem>
             );

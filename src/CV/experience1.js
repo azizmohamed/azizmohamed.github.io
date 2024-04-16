@@ -10,26 +10,45 @@ const Experience1 = () => {
       width="245mm"
       titleWidth="52mm"
       titleLeft={"170mm"}
-      height="288mm"
+      height="295mm"
       margin="2mm 1mm 1mm 5mm"
     >
       <Box mb="-10">
         <ExperienceItem
-          position={"Senior Engineer"}
-          company={"CMC Markets"}
-          companyUrl={"https://www.cmcmarkets.com/"}
-          periodDesc="Jan 2023 - Present"
+          position={"Contractor Senior Engineer"}
+          company={"MilkRun"}
+          companyUrl={"https://www.milkrun.com/"}
+          periodDesc="Jan 2024 - Present"
         >
           <Project
             description={
               <Typography
                 lineHeight={"5mm"}
-                fontSize="15px"
+                fontSize="14px"
+                textAlign={"justify"}
+                m="1mm"
+              >
+                As a Senior Engineer at MilkRun, I oversee .NET development for integrating our system with Woolworths' platforms. Collaborating with the Woolies X team, I drive essential changes for MilkRun's enhancements. Utilizing Google Kubernetes Engine, I ensure seamless infrastructure management for optimal performance. My role demands technical expertise and effective communication to navigate complexities and deliver value.
+              </Typography>
+            }
+          ></Project>
+        </ExperienceItem>
+        <ExperienceItem
+          position={"Senior Engineer"}
+          company={"CMC Markets"}
+          companyUrl={"https://www.cmcmarkets.com/"}
+          periodDesc="Jan 2023 - Jan 2024"
+        >
+          <Project
+            description={
+              <Typography
+                lineHeight={"5mm"}
+                fontSize="14px"
                 textAlign={"justify"}
                 m="1mm"
               >
                 Played a key role in the modernization and migration of the market pricing data module to microservices architecture and event-driven design. Actively utilized AWS services, .NET framework, and IaaS solutions, with a focus on effective management through CDK. Contributed to the corporate migration strategy, enhancing market pricing data processing efficiency and reducing latency. Resulted in improved overall system performance and scalability, showcasing expertise in event-driven architecture.
-                </Typography>
+              </Typography>
             }
             accomplishments={[
               "Built the infrastructure of multiple services using CDK and Terraform.",
@@ -49,12 +68,12 @@ const Experience1 = () => {
             description={
               <Typography
                 lineHeight={"5mm"}
-                fontSize="15px"
+                fontSize="14px"
                 textAlign={"justify"}
                 m="1mm"
               >
                 As a key contributor, I played a vital role in developing an innovative booking system for events and meeting rooms, transforming scheduling across CBA buildings. Integrated creative solutions for complex scenarios, ensuring real-time room availability. The system, which includes React for a dynamic front-end, enhances operational efficiency and elevates service delivery standards, fostering a culture of innovation and excellence.
-                </Typography>
+              </Typography>
             }
             accomplishments={[
               "Built infrastructure and continuous integration/continuous delivery (CI/CD) pipelines using Terraform.",
@@ -73,7 +92,7 @@ const Experience1 = () => {
             description={
               <Typography
                 lineHeight={"5mm"}
-                fontSize="15px"
+                fontSize="14px"
                 m="1mm"
                 textAlign={"justify"}
               >
@@ -104,7 +123,7 @@ const Experience1 = () => {
             description={
               <Typography
                 lineHeight={"5mm"}
-                fontSize="15px"
+                fontSize="14px"
                 m="1mm"
                 textAlign={"justify"}
               >

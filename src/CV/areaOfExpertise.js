@@ -7,11 +7,11 @@ const AreaOfExpertise = ({ title, children, width }) => {
       display={"flex"}
       flexDirection="column"
       alignItems={"center"}
-      padding={"2mm"}
+      padding={"1mm"}
       bgcolor="#048BC2"
       borderRadius={"1mm"}
     >
-      <Typography fontWeight="bold" color={"white"}>
+      <Typography fontWeight="bold" fontSize={"3mm"} color={"white"}>
         {title}
       </Typography>
     </Box>

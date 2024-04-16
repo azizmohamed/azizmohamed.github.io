@@ -92,7 +92,7 @@ const Headline = () => {
         padding={"2mm 5mm 2mm 5mm"}
         border={"solid 1px #d3d3d3"}
       >
-        Senior Cloud Engineer and AWS Architect with 16+ years of expertise in designing and implementing scalable cloud solutions. Proficient in .NET and front-end development, boasting a robust full-stack background. Proven track record in optimizing performance and fortifying security through strategic use of AWS services. Recognized team collaborator with a talent for translating complex technical concepts. Specialized in crafting event-driven architectures for real-time scalability and responsiveness. Well-versed in microservices design to enhance system flexibility. A seasoned professional at the forefront of general cloud solutions, with a key focus on AWS.
+        Senior Engineer and AWS Architect with 16+ years of expertise in designing and implementing scalable cloud solutions. Proficient in .NET and front-end development, boasting a robust full-stack background. Proven track record in optimizing performance and fortifying security through strategic use of AWS services. Recognized team collaborator with a talent for translating complex technical concepts. Specialized in crafting event-driven architectures for real-time scalability and responsiveness. Well-versed in microservices design to enhance system flexibility. A seasoned professional at the forefront of general cloud solutions, with a key focus on AWS.
         </Typography>
     </Box>
   );
